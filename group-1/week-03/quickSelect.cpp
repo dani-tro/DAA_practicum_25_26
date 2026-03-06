@@ -2,7 +2,7 @@
 using namespace std;
 
 const int MAXN = 2e6 + 10;
-int a[MAXN];
+int a[MAXN], k;
 
 mt19937 myRand(6769420);
 
@@ -10,8 +10,8 @@ int randIdx(int l, int r) {
 	return l + myRand() % (r - l + 1);
 }
 
-void quickSort(int l, int r) {
-	if (l >= r) return;
+int quickSelect(int l, int r) {
+	if (l >= r) return a[l];
 	
 	int idx = randIdx(l, r);
 	int pivot = a[idx];
@@ -28,8 +28,10 @@ void quickSort(int l, int r) {
 	}
 	
 	swap(a[i], a[r]);
-	quickSort(l, j);
-	quickSort(i + 1, r);
+	
+	if (i == k) return a[i];
+	if (i < k) return quickSelect(i + 1, r);
+	return quickSelect(l, i - 1);
 }
 
 int main () {
@@ -38,11 +40,9 @@ int main () {
 	cout.tie(nullptr);
 	
 	int n;
-	cin >> n;
+	cin >> n >> k;
 	for (int i = 1; i <= n; i++) cin >> a[i];
 	
-	quickSort(1, n);
-	for (int i = 1; i <= n; i++) cout << a[i] << ' ';
-	cout << endl;
+	cout << quickSelect(1, n) << endl;
 	return 0;
 }

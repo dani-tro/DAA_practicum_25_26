@@ -29,10 +29,6 @@ void quickSort(int l, int r) {
 	}
 	
 	swap(a[i], a[r]);
-	
-	if (i == k) return pivot;
-	if (i < k) return quickSelect(i + 1, r);
-	return quickSelect(l, i - 1);
 	quickSort(l, j);
 	quickSort(i + 1, r);
 }
