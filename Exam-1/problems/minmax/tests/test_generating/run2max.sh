@@ -1,0 +1,1 @@
+./testgen2_max minmax.$1.in; ./author < minmax.$1.in > minmax.$1.out;
