@@ -11,7 +11,7 @@ struct student {
 };
 bool cmp(student& i, student& j)
 {
-	// if (i.grade == j.grade) return i.fn < j.fn;
+	// if (i.grade == j.grade) return i.fn < j.f\n;
 	// return i.grade > j.grade;
 
 	return (i.grade == j.grade ? i.fn < j.fn : i.grade > j.grade);
