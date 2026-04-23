@@ -1,0 +1,1 @@
+g++ -Wall -Wextra -g -fsanitize=undefined,address b.cpp && echo ok && ./a.out
