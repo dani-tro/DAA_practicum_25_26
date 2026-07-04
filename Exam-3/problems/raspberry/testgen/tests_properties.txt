@@ -1,0 +1,69 @@
+
+
+test_generator ../tests/raspberry.02.in 1 5 0 1 0 
+test_generator ../tests/raspberry.03.in 1 10 0 1 0 
+test_generator ../tests/raspberry.04.in 1 50 0 1 0 
+test_generator ../tests/raspberry.05.in 1 100 0 1 0 
+test_generator ../tests/raspberry.06.in 1 500 0 1 0 
+test_generator ../tests/raspberry.07.in 1 500 0 1 1 
+test_generator ../tests/raspberry.08.in 1 500 0 1 2 
+test_generator ../tests/raspberry.09.in 1 1 1 1 0 
+test_generator ../tests/raspberry.10.in 1 1 0 0 0 
+test_generator ../tests/raspberry.11.in 1 4 0 1 0 
+test_generator ../tests/raspberry.12.in 4 1 0 1 0 
+test_generator ../tests/raspberry.13.in 1 4 0 1 2 
+test_generator ../tests/raspberry.14.in 4 1 0 1 1 
+test_generator ../tests/raspberry.15.in 2 2 0 1 0 
+test_generator ../tests/raspberry.16.in 2 2 0 1 1 
+test_generator ../tests/raspberry.17.in 2 2 0 1 2 jdiow 
+test_generator ../tests/raspberry.18.in 4 5 0 1 2 
+test_generator ../tests/raspberry.19.in 5 4 0 1 1 
+test_generator ../tests/raspberry.20.in 5 5 1 0 0 
+test_generator ../tests/raspberry.21.in 5 5 0 1 0 
+test_generator ../tests/raspberry.22.in 5 5 0 1 1 
+test_generator ../tests/raspberry.23.in 5 5 0 1 2 
+test_generator ../tests/raspberry.24.in 10 5 0 1 0 
+test_generator ../tests/raspberry.25.in 5 10 0 1 0 
+test_generator ../tests/raspberry.26.in 20 20 0 1 0 
+test_generator ../tests/raspberry.27.in 20 50 0 1 2 
+test_generator ../tests/raspberry.28.in 50 20 0 1 1 
+test_generator ../tests/raspberry.29.in 100 100 1 0 0 
+test_generator ../tests/raspberry.30.in 100 100 0 1 0 
+test_generator ../tests/raspberry.31.in 100 100 0 1 1 
+test_generator ../tests/raspberry.32.in 100 100 0 1 2 
+test_generator ../tests/raspberry.33.in 1 500 1 0 0 
+test_generator ../tests/raspberry.34.in 500 1 1 0 0 
+test_generator ../tests/raspberry.35.in 10 10 1 1 0 0 
+test_generator ../tests/raspberry.36.in 50 50 1 1 0 0 
+test_generator ../tests/raspberry.37.in 200 200 1 1 0 0 
+test_generator ../tests/raspberry.38.in 500 200 1 1 0 0 
+test_generator ../tests/raspberry.39.in 200 500 1 1 0 0 
+test_generator ../tests/raspberry.40.in 500 500 1 1 0 0 
+test_generator ../tests/raspberry.41.in 500 500 1 1 0 0 
+test_generator ../tests/raspberry.42.in 1 500 1 0 0 
+test_generator ../tests/raspberry.43.in 500 1 1 0 0 
+test_generator ../tests/raspberry.44.in 100 500 0 1 0 
+test_generator ../tests/raspberry.45.in 100 500 0 1 2 
+test_generator ../tests/raspberry.46.in 500 100 0 1 0 
+test_generator ../tests/raspberry.47.in 500 100 0 1 1 
+test_generator ../tests/raspberry.48.in 500 500 0 1 0 
+test_generator ../tests/raspberry.49.in 500 500 0 1 0 
+test_generator ../tests/raspberry.50.in 500 500 0 1 1 
+test_generator ../tests/raspberry.51.in 500 500 0 1 1 
+test_generator ../tests/raspberry.52.in 500 500 0 1 2 
+test_generator ../tests/raspberry.53.in 500 500 0 1 2 
+test_generator ../tests/raspberry.54.in 1 500 0 0 0 
+test_generator ../tests/raspberry.55.in 500 1 0 0 0 
+test_generator ../tests/raspberry.56.in 10 10 0 0 1 
+test_generator ../tests/raspberry.57.in 10 10 0 0 2 
+test_generator ../tests/raspberry.58.in 500 50 0 0 0 
+test_generator ../tests/raspberry.59.in 50 500 0 0 0 
+test_generator ../tests/raspberry.60.in 100 100 0 0 1 
+test_generator ../tests/raspberry.61.in 100 100 0 0 2 
+test_generator ../tests/raspberry.62.in 500 500 0 0 0 
+test_generator ../tests/raspberry.63.in 500 500 0 0 0 
+test_generator ../tests/raspberry.64.in 500 500 0 0 1 
+test_generator ../tests/raspberry.65.in 500 500 0 0 1 
+test_generator ../tests/raspberry.66.in 500 500 0 0 2 
+test_generator ../tests/raspberry.67.in 500 500 0 0 2 
+

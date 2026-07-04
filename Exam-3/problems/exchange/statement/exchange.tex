@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+\newcommand{\bottomMargin}{2cm}
+
+\newcommand{\header}{
+	ДИЗАЙН И АНАЛИЗ НА АЛГОРИТМИ - \\ ПРАКТИКУМ\\
+	\vspace{0.1cm}
+	Летен семестър, 2026 г., трето контролно\\
+	\vspace{0.1cm}
+}
+\newcommand{\tl}{$0.5$ сек.}
+\newcommand{\ml}{$256$ MB}
+
+\input{structure.tex}
+\usepackage{newunicodechar}
+\newunicodechar{ѝ}{{$\grave{\text{и}}$}}
+\newunicodechar{Ѝ}{{$\grave{\text{И}}$}}
+
+\begin{document}
+	
+\section{Задача K9. РАЗМЯНА}
+
+Счетоводител трябва да изплати сума от $s$ стотинки. Той разполага с $n$ торби с монети. Във всяка от торбите монетите са еднакви. От всяка торба може да се ползват или всичките монети, или част от монетите, или даже може да не се вземе нито една монета. Напишете програма \textbf{\texttt{exchange}}, която пресмята по колко различни начина счетоводителят може да изплати сумата(тъй като числото може да бъде твърде голямо, \textbf{изведете отговора по модул $10^{9} + 7$}).
+
+\subsection{Вход}
+Стойностите на $s$ и $n$ са записани съответно на първия и на втория ред във входа. Следва ред с $n$ на брой цели числа $a_1, a_2, \ldots, a_n$, задаващи стойностите на монети за първата, втората и т.н. до $n$-тата торба. Следва още един ред във входа, в който са записани броя монети $b_1, b_2, \ldots, b_n$ в съответните торби.
+
+\subsection{Изход}
+Да се изведе едно цяло число, равно на търсения брой \textbf{по модул $10^{9} + 7$}.
+
+\subsection{Ограничения}
+\vspace{0.1em}
+\begin{itemize}[label=$\clubsuit$]
+	\item $1 \leq s \leq 50000$
+	\item $1 \leq n \leq 200$
+	\item $1 \leq a_i \leq 200$
+	\item $1 \leq b_i \leq 50000$
+	\item В 50\% от тестовете $s, b_i \leq 300$ и $n \leq 100$
+\end{itemize}
+
+\subsection{Примери}
+\begin{table}[!ht]
+	\begin{tblr}{|X[50,l]|X[50,l]|}
+		\hline
+		\textbf{Вход} & \textbf{Изход} \\
+		\hline
+		\texttt{50 \\
+			3\\
+			10 20 10\\
+			1 2 2}
+		&
+		\texttt{3}
+		\\
+		\hline
+		\texttt{50 \\
+			3\\
+			20 10 5\\
+			1 2 3}
+		&
+		\texttt{1}
+		\\
+		\hline
+		\texttt{50 \\
+			3\\
+			20 10 5\\
+			10 10 10}
+		&
+		\texttt{12}
+		\\
+		\hline
+	\end{tblr}
+\end{table}
+\FloatBarrier
+
+\end{document}
